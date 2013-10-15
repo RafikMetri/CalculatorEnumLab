@@ -15,7 +15,7 @@ public class Main {
         Calculate calculate = new Calculate();
 
         while(exit == false){
-            System.out.println(" # Choose an operation by entering it's number:\n    1. Add\n    2. Substract\n    3. Multiply\n    4. Divide");
+            System.out.println(" # Choose an operation by entering it's number:\n    1. Add\n    2. Subtract\n    3. Multiply\n    4. Divide");
             int userInput = input.nextInt();
 
             Operation operation = Operation.ADD;
@@ -25,7 +25,7 @@ public class Main {
                     operation = Operation.ADD;
                     break;
                 case 2:
-                    operation = Operation.SUBSTRACT;
+                    operation = Operation.SUBTRACT;
                     break;
                 case 3:
                     operation = Operation.MULTIPLY;
@@ -41,8 +41,6 @@ public class Main {
             double num2 = input.nextDouble();
 
             double answer = calculate.calculate(num1, num2, operation);
-
-
 
             System.out.println("\n ## Answer: " + answer + "\n\n # Would you like to make another calculation?\n    1. Yes\n    2. No");
             userInput = input.nextInt();

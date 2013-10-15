@@ -7,7 +7,7 @@
 
 public enum Operation{
     ADD((double)0, (double)0),
-    SUBSTRACT((double)0, (double)0),
+    SUBTRACT((double)0, (double)0),
     MULTIPLY((double)0, (double)0),
     DIVIDE((double)0, (double)0);
 

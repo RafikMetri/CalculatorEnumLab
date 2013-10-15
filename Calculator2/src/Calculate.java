@@ -3,7 +3,6 @@
  * User: rmetri
  * Date: 10/14/13
  * Time: 9:26 PM
- * To change this template use File | Settings | File Templates.
  */
 public class Calculate implements CalculateInterface{
     public Calculate() {
@@ -16,9 +15,9 @@ public class Calculate implements CalculateInterface{
 
         switch(operation){
             case ADD:
-                answer = num1 + num1;
+                answer = num1 + num2;
                 break;
-            case SUBSTRACT:
+            case SUBTRACT:
                 answer = num1 - num2;
                 break;
             case MULTIPLY:
